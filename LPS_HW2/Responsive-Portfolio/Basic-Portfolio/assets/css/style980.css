@@ -1,0 +1,243 @@
+/* Sets background image and settings */
+body {
+    background-image: url("../images/light-grey-terrazzo.png");
+    margin: auto;
+}
+
+/* Background settings for navbar */
+.topbar {
+    position: fixed;
+    clear: both;
+    overflow: visible;
+    margin: auto;
+    top: 0px;
+    background: #ffffff;
+    width: 100%;
+    height: 75px;
+    margin: 0px 0px 0px 0px;
+    z-index: 98;
+    border-bottom: 2px solid #cccccc;
+}
+
+/* Settings for name section of navbar */
+.name {
+    display: block;
+    float: left;
+    position: relative;
+    overflow: visible;
+    top: 0px;
+    left: 100px;
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    padding-top: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    z-index: 99;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 2px solid #cccccc;
+}
+
+/* Settings for link area of navbar */
+.link {
+    display: inline-block;
+    float: right;
+    position: relative;
+    background: #ffffff;
+    color: #777777;
+    width: 75px;
+    height: 25px;
+    margin-top: 15px;
+    padding: 15px 25px 0px 25px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* border-bottom: 2px solid #cccccc; */
+    border-left: 1px solid #cccccc;
+    z-index: 97;
+}
+
+.link:last-child{
+    border-left: 0px;
+}
+
+/* Pseudo-code for links */
+.link:visited {
+    color: purple;
+}
+
+.link:hover {
+    color: blue;
+}
+
+/* Settings for footer */
+.footer {
+    position: fixed;
+    bottom: 0px;
+    clear: both;
+    width: 100%;
+    height: 15px;
+    background: #666666;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    z-index: 99;
+}
+
+/* Settings for content area of page */
+.content {
+    /* box-sizing: border-box; */
+    background: #ffffff;
+    width: 750px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+/* Settings for heading of About Me section */
+#aboutme {
+    /* box-sizing: border-box; */
+    position: relative;
+    font-size: 32px;
+    padding: 10px 0px 25px 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #ffffff;
+    width: 750px;
+    width: 100%;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+
+}
+
+/* Settings for profile picture */
+#pic {
+    float: left;
+    height: 200px;
+    width: 200px;    
+    margin: 0px 10px 0px 10px;
+}
+
+/* Settings for paragraph format */
+.main {
+    width: 750px;
+    height: 100%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 25px 25px 25px 25px;
+    background: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    /* box-sizing: border-box; */
+}
+
+/* Settings for heading on "Contact" and "Portfolio" pages */
+.secondaryheader {
+    position: absolute;
+    font-size: 28px;
+    padding: 25px 0px 25px 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #ffffff;
+    width: 750px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    /* box-sizing: border-box; */
+
+}
+
+/* Describes content area of "Portfolio" page */
+.portfolio {
+    display: inline-block;
+    width: 750px;
+    clear: both;
+    /* width: 100%; */
+    height: 100%;
+    margin: auto;
+    margin: 100px 25px 25px 25px;
+    background: #ffffff;
+    /* box-sizing: border-box; */
+
+}
+
+/* Settings for pictures in "Portfolio" page */
+.portfoliopic {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 20px 0px 20px 20px;
+    background: #ffffff;
+    float: left;
+    z-index: 3;
+}
+
+.picbanner {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    font-size: 24px;
+    bottom: 5px;
+    margin: auto;
+    padding: 10px 0px 0px 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    z-index: 4;
+}
+
+/* Settings for content area of "Contact" page */
+.email {
+    width: 750px;
+    /* width: 100%; */
+    height: 100%;
+    margin: auto;
+    margin: 100px 25px 25px 25px;
+    background: #ffffff;
+}
+
+/* Settings for contact page inputs */
+input[type=text] {
+    /* width: 720px; */
+    width: 90%;
+    margin: 10px 0px 20px 0px;
+    padding: 10px 10px;
+    background: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+}
+
+/* Pseudo-code for contact page placeholders */
+::placeholder {
+    color: #cfcccc;
+}
+
+/* Settings for "Submit" button */
+.button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 50px;
+    width: 100px;
+    border: 1px solid #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    box-shadow: 3px 3px #777777;
+    cursor: pointer;
+}
+
+/* Pseudo-code for button action */
+.button:active {
+    background-color: #777777;
+    color: #ffffff;
+    box-shadow: 3px 3px #4aaaa5;
+}
+
