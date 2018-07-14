@@ -1,0 +1,28 @@
+body {
+    background-color: antiquewhite;
+}
+
+#header, .card {
+    background-color: grey;
+    color: white;
+}
+
+.card-image {
+    height: 150px;
+    width: 100px;
+    clear: left;
+    margin-left: 40px;
+}
+
+.brand-logo {
+    margin-left: 5%;
+}
+
+#nav-mobile {
+    margin-right: 5%;
+}
+
+.card-title {
+    padding-left: 5%;
+}
+
